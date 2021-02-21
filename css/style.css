@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvitica, sans-serif;
+}
+
+body{
+  background-color: rgb(255,255,255);
+}
+
+h1 {
+  font-size: 35px;
+  text-align: center; 
+  color: black;
+  padding: 0px;
+}
+
+section{
+  background-color: rgb(150, 150, 150);
+  border: 1px solid black;
+  margin: 10px;
+  height: 150px;
+  padding: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+span {
+  border-left:  1px solid black;
+  border-bottom: 1px solid black;
+  width: 150px;
+  height: 30px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  float: right; top:0; right:0; margin:0;
+  position: absolute;
+  padding-top: 5px;
+} 
+  
+#menu1{
+  background-color: #D59898;
+  color: black;
+}
+  
+#menu2{
+  background-color: #C14543;
+  color: black; 
+}
+
+#menu3{
+  background-color: #E5D198;
+  color: black;
+}
+
+p{
+  padding: 15px 5px 0px 5px;
+  font-size: 16px;
+  position: relative;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%; 
+}
+
+
+
+/* Desktop view media query */
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    width: 33.33%;
+  }
+}
+
+
+/* Tablet view media query */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    float: left;
+    width: 50%;
+  }
+   
+  #p3 {
+    float: left;
+    width: 195%;
+  }
+
+}
+
+
+/* Mobile view media query */
+
+@media (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+    width: 100%;
+  }
+}
+
+
+
